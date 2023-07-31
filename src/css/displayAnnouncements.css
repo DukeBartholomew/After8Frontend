@@ -1,0 +1,12 @@
+tbody .yellow-row {
+  background-color: rgb(243, 243, 190);
+}
+
+tbody .red-row {
+  background-color: rgb(227, 178, 178);
+}
+
+tbody .yellow-row td:not(:last-child),
+tbody .red-row td:not(:last-child) {
+  background-color: inherit;
+}

@@ -1,0 +1,49 @@
+.add-button {
+    background-color: #FCAE1E;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.add-button:hover {
+    background-color: rgb(228, 141, 19);
+}
+
+.edit-button {
+    margin-bottom: 2px; 
+    margin-top: 8px;
+    margin-right: 2px;
+     background-color: #334a9a;
+     width: 79px;
+
+}
+
+.delete-button {
+    margin-right: 2px;
+    margin-bottom: 8px; 
+    margin-top: 4px;
+
+    background-color: firebrick;
+}
+
+.delete-button:hover {
+    background-color: indianred;
+}
+
+
+.login-card {
+    background-color: #dbdbdf;
+}
+
+/* .wrap {
+    flex: 1;
+  }
+  
+  @media (max-width: 50px) {
+    .wrap {
+      flex-basis: 100%;
+      max-width: 100%;
+      word-wrap: break-word;
+    }
+  } */
+  

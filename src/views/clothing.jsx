@@ -113,7 +113,7 @@ const Clothing = () => {
           />
         </div>
         <Button
-          type="submit"
+          type="button"
           className="add-button"
           onClick={() => handleSubmit()}
           onTouchEnd={() => handleSubmit()}
@@ -170,6 +170,7 @@ const Clothing = () => {
         </thead>
         <DisplayClothing clothes={clothes} />
       </Table>
+      <br></br>
       </div>
     </>
   );

@@ -149,7 +149,7 @@ const Inventory = () => {
           />
         </div>
         <Button
-          type="submit"
+          type="button"
           className="add-button"
           onClick={() => handleSubmit()}
           onTouchEnd={() => handleSubmit()}
@@ -207,6 +207,7 @@ const Inventory = () => {
           </thead>
           <DisplayItems items={items} />
         </Table>
+        <br></br>
       </div>
     </>
   );

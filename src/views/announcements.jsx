@@ -224,6 +224,7 @@ const Announcements = () => {
           </thead>
           <DisplayAnnouncements announcements={announcements} />
         </Table>
+        <br></br>
       </div>
     </>
   );

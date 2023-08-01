@@ -167,7 +167,7 @@ const Headphones = () => {
           />
         </div>
         <Button
-          type="submit"
+          type="button"
           onClick={() => handleSubmit()}
           onTouchEnd={() => handleSubmit()}
           className="add-button"
@@ -216,6 +216,7 @@ const Headphones = () => {
           </thead>
           <DisplayHeadphones headphones={headphones} />
         </Table>
+        <br></br>
       </div>
     </>
   );

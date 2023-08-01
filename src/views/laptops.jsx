@@ -193,7 +193,7 @@ const Laptops = () => {
           />
         </div>
         <Button
-          type="submit"
+          type="button"
           onClick={() => handleSubmit()}
           onTouchEnd={() => handleSubmit()}
           className="add-button"
@@ -243,6 +243,7 @@ const Laptops = () => {
           </thead>
           <DisplayLaptops laptops={laptops} />
         </Table>
+        <br></br>
       </div>
     </>
   );

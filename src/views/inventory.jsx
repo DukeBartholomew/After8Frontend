@@ -110,7 +110,7 @@ const Inventory = () => {
             value={itemName}
             onChange={handleItemNameChange}
             style={{
-              width: "40%",
+              width: "30%",
               marginBottom: "10px",
               borderRadius: "5px",
               borderWidth: "1.2px",

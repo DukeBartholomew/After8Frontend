@@ -98,6 +98,7 @@ const Clothing = () => {
               borderWidth: "1.2px",
             }}
           />
+          <br></br>
           <label style={{ fontSize: "25px", color: "red" }}> *</label>
           <label htmlFor="quantity" style={{ fontWeight: "bold" }}>
             Quantity:{" "}

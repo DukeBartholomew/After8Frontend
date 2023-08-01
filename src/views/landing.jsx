@@ -52,6 +52,7 @@ const Landing = () => {
             }
           } else {
             console.log('Error occurred');
+            console.log(url + '/users/grant-access');
             window.alert('Error occurred');
             setLoading(false); // Reset loading state to false
           }
@@ -124,6 +125,7 @@ const Landing = () => {
           </form>
         </Card>
       </Container>
+      <br></br>
     </>
   );
 };

@@ -166,13 +166,14 @@ const Headphones = () => {
             }}
           />
         </div>
-        <button
+        <Button
           type="submit"
           onClick={() => handleSubmit()}
+          onTouchEnd={() => handleSubmit()}
           className="add-button"
         >
           Add New Headphone
-        </button>
+        </Button>
       </form>
 
       <div

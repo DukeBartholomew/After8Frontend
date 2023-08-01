@@ -195,6 +195,7 @@ const Laptops = () => {
         <Button
           type="submit"
           onClick={() => handleSubmit()}
+          onTouchEnd={() => handleSubmit()}
           className="add-button"
         >
           Add New Laptop

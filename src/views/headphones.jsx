@@ -169,7 +169,6 @@ const Headphones = () => {
         <Button
           type="button"
           onClick={() => handleSubmit()}
-          onTouchEnd={() => handleSubmit()}
           className="add-button"
         >
           Add New Headphone

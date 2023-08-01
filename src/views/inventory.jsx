@@ -152,7 +152,6 @@ const Inventory = () => {
           type="button"
           className="add-button"
           onClick={() => handleSubmit()}
-          onTouchEnd={() => handleSubmit()}
         >
           Add New Item
         </Button>

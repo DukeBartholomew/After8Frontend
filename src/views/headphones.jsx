@@ -158,7 +158,7 @@ const Headphones = () => {
             value={notes}
             onChange={handleNotesChange}
             style={{
-              width: "50%",
+              width: "35%",
               marginRight: "3px",
               marginBottom: "10px",
               borderRadius: "5px",

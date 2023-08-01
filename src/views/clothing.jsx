@@ -92,13 +92,12 @@ const Clothing = () => {
             value={article}
             onChange={handleArticleChange}
             style={{
-              width: "40%",
+              width: "30%",
               marginBottom: "10px",
               borderRadius: "5px",
               borderWidth: "1.2px",
             }}
           />
-          <br></br>
           <label style={{ fontSize: "25px", color: "red" }}> *</label>
           <label htmlFor="quantity" style={{ fontWeight: "bold" }}>
             Quantity:{" "}

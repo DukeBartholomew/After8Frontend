@@ -70,7 +70,6 @@ const Headphones = () => {
           console.log(err);
         });
     }
-    window.location.reload();
 
   };
 
@@ -169,8 +168,8 @@ const Headphones = () => {
           />
         </div>
         <Button
-          type="button"
-          onClick={() => handleSubmit()}
+          type="submit"
+          onClick={handleSubmit}
           className="add-button"
         >
           Add New Headphone

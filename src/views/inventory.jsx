@@ -83,12 +83,13 @@ const Inventory = () => {
           setItemName("");
           setQuantity("");
           setNotes("");
+          window.location.reload();
+
         })
         .catch((err) => {
           console.log(err);
         });
     }
-    window.location.reload();
 
   };
   
@@ -151,9 +152,9 @@ const Inventory = () => {
           />
         </div>
         <Button
-          type="button"
+          type="submit"
           className="add-button"
-          onClick={() => handleSubmit()}
+          onClick={handleSubmit}
         >
           Add New Item
         </Button>

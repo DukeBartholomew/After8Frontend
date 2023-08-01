@@ -51,12 +51,13 @@ const Clothing = () => {
           // Clear input fields after successful submission
           setArticle("");
           setQuantity("");
+          window.location.reload();
+
         })
         .catch((err) => {
           console.log(err);
         });
     }
-    window.location.reload();
 
   }
 
@@ -115,9 +116,9 @@ const Clothing = () => {
           />
         </div>
         <Button
-          type="button"
+          type="submit"
           className="add-button"
-          onClick={() => handleSubmit()}
+          onClick={handleSubmit}
         >
           Add New Item
         </Button>

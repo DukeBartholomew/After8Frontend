@@ -87,7 +87,6 @@ const Laptops = () => {
           console.log(err);
         });
     }
-    window.location.reload();
 
   };
 
@@ -195,8 +194,8 @@ const Laptops = () => {
           />
         </div>
         <Button
-          type="button"
-          onClick={() => handleSubmit()}
+          type="submit"
+          onClick={handleSubmit}
           className="add-button"
         >
           Add New Laptop

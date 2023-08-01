@@ -99,7 +99,7 @@ const Announcements = () => {
     <>
       <HeaderMegaMenu />
       <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>Food</h1>
-      <form method="post">
+      <form>
         <div className="create-item">
           <label style={{ fontSize: "25px", color: "red" }}>*</label>
           <label htmlFor="topic" style={{ fontWeight: "bold" }}>
@@ -159,7 +159,7 @@ const Announcements = () => {
           />
         </div>
         <Button
-          type="submit"
+          type="button"
           onClick={() => handleSubmit()}
           onTouchEnd={() => handleSubmit()}
           className="add-button"

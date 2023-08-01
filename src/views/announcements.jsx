@@ -59,8 +59,9 @@ const Announcements = () => {
     setSortBy(event.target.value);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     if (topic && situation) {
+      event.preventDefault();
       const numericQuantity = situation.match(/\d+/);
   
       if (!numericQuantity || isNaN(parseInt(numericQuantity[0], 10))) {

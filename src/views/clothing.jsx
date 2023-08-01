@@ -26,8 +26,9 @@ const Clothing = () => {
       });
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     if (article && quantity) {
+      event.preventDefault();
       // Check if required fields are not empty
       const numericQuantity = quantity.match(/\d+/);
   

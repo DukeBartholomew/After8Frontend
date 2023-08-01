@@ -34,8 +34,9 @@ const Headphones = () => {
     setNotes(event.target.value);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     if (headphoneNumber && serialNumber) {
+      event.preventDefault();
       const requestData = {
         headphone_number: headphoneNumber,
         serial_number: serialNumber,

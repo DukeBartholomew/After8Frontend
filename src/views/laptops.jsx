@@ -51,8 +51,9 @@ const Laptops = () => {
       });
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     if (laptopNumber && serialNumber && model) {
+      event.preventDefault();
       const requestData = {
         laptop_number: laptopNumber,
         serial_number: serialNumber,

@@ -56,8 +56,9 @@ const Inventory = () => {
     setSortBy(event.target.value);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     if (itemName && quantity) {
+      event.preventDefault();
       // Extract the numeric part from the quantity input using a regular expression
       const numericQuantity = quantity.match(/\d+/);
   

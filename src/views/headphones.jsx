@@ -166,13 +166,13 @@ const Headphones = () => {
             }}
           />
         </div>
-        <Button
+        <button
           type="submit"
           onClick={() => handleSubmit()}
           className="add-button"
         >
           Add New Headphone
-        </Button>
+        </button>
       </form>
 
       <div

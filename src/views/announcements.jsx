@@ -99,7 +99,7 @@ const Announcements = () => {
     <>
       <HeaderMegaMenu />
       <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>Food</h1>
-      <form>
+      <form method="post">
         <div className="create-item">
           <label style={{ fontSize: "25px", color: "red" }}>*</label>
           <label htmlFor="topic" style={{ fontWeight: "bold" }}>

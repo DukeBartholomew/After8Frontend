@@ -70,6 +70,8 @@ const Headphones = () => {
           console.log(err);
         });
     }
+    window.location.reload();
+
   };
 
   const getHeadphones = () => {

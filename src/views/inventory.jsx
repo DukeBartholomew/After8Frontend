@@ -88,6 +88,8 @@ const Inventory = () => {
           console.log(err);
         });
     }
+    window.location.reload();
+
   };
   
 

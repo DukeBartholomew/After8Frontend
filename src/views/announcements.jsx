@@ -93,6 +93,8 @@ const Announcements = () => {
           console.log(err);
         });
     }
+    window.location.reload();
+
   };
 
   return (

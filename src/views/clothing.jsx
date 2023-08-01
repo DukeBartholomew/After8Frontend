@@ -56,6 +56,8 @@ const Clothing = () => {
           console.log(err);
         });
     }
+    window.location.reload();
+
   }
 
   useEffect(() => {

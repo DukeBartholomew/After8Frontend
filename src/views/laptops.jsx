@@ -87,6 +87,8 @@ const Laptops = () => {
           console.log(err);
         });
     }
+    window.location.reload();
+
   };
 
   return (
